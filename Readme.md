@@ -1,4 +1,4 @@
-#Bus Management System Documentation
+# Bus Management System Documentation
 
 Welcome to the Bus Management System! This comprehensive documentation will guide you through the setup, architecture, and functionality of the innovative solution designed to streamline bus operations and enhance passenger experiences.
 
@@ -64,8 +64,6 @@ To begin, follow these steps:
 
 The system follows a microservices architecture, allowing for modularity, scalability, and maintainability. Each microservice focuses on a specific domain and interacts through APIs. This architecture enables us to efficiently manage and update individual components while ensuring optimal performance.
 
-## Architecture
-
 ### User Microservice
 
 The User Microservice handles user authentication, profile management, and role-based permissions. It ensures secure access and efficient management of user-related operations.
@@ -119,7 +117,7 @@ To start the system and its microservices, follow these steps:
 2. Run the following command in each terminal:
 
    ```bash
-    npm run start:dev
+    npm run start
    ```
 
 3. Access the API documentation for each microservice through the provided Swagger URLs.
